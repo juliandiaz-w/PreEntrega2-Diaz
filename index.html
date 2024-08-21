@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lupe's Hard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="./img/logo-lupe.png" alt="Logo Lupe's Hard"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./pages/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/arma-tu-pc.html">Arma tu PC</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Placas de Video
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Nvidia</a></li>
+                                    <li><a class="dropdown-item" href="#">AMD</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                            <button class="btn boton-busqueda" type="submit"><img src="./img/iconos/lupa.png"
+                                    alt="logo-lupa"></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </main>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/Carrousel/1st-banner.png" class="d-block w-100" alt="banner-nvidia">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Carrousel/2nd-banner.png" class="d-block w-100" alt="banner-amd">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/Carrousel/3da-banner.jpg" class="d-block w-100" alt="banner-silla">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section>
+        <h1 class="titulo-destacados">DESTACADOS</h1>
+        <div class="tarjeta-destacados">
+            <div class="card tarjeta-custom">
+                <img src="./img/Productos/Destacados/Superlight-2.png" class="card-img-top"
+                    alt="Logitech G Pro X Superlight II">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Logitech G Pro X Superlight II - Magenta</h5>
+                    <a href="#" class="btn btn-primary">Ir al producto</a>
+                </div>
+            </div>
+            <div class="card tarjeta-custom">
+                <img src="./img/Productos/Destacados/Hyperx Cloud Flight.jpg" class="card-img-top"
+                    alt="Hyperx Cloud Flight">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Hyperx Cloud Flight PC y PS4</h5>
+                    <a href="#" class="btn btn-primary">Ir al producto</a>
+                </div>
+            </div>
+            <div class="card tarjeta-custom">
+                <img src="./img/Productos/Destacados/Redragon Fizz Pro White K616.jpg" class="card-img-top"
+                    alt="Redragon Fizz Pro White K616">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Redragon K616 Fizz Pro White</h5>
+                    <a href="#" class="btn btn-primary">Ir al producto</a>
+                </div>
+            </div>
+            <div class="card tarjeta-custom">
+                <img src="./img/Productos/Destacados/Gigabyte G24F.jpg" class="card-img-top" alt="Gigabyte G24F">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Gigabyte G24F 165hz 1ms</h5>
+                    <a href="#" class="btn btn-primary">Ir al producto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section class="metodos-envios-pagos">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col d-flex flex-column align-items-center">
+                <img src="./img/Secciones/logo envios.png" alt="Logo Envíos" class="mb-2">
+                <button type="button" class="btn btn-primary btn-sm">Métodos de envío</button>
+            </div>
+            <div class="col d-flex flex-column align-items-center">
+                <img src="./img/Secciones/logo pagos.png" alt="Logo Pagos" class="mb-2">
+                <button type="button" class="btn btn-primary btn-sm">Medios de pago</button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <hr>
+    <section class="quiero-saber-mas">
+        <a href="./pages/contacto.html" class="btn-contact">¡Contáctenos!</a>
+    </section>
+    <footer id="footer">
+        <section class="enlaces-utiles">
+            <div>
+                <h3>Enlaces Útiles</h3>
+                <hr>
+                <ul class="links-medios-pago">
+                    <li><a href="#">Medios de Pago</a></li>
+                    <li><a href="#">Botón de arrepentimiento</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="contactenos">
+            <div class="box-contact">
+                <h3>Contáctenos</h3>
+                <hr>
+                <p>LUPE'S TECH</p>
+                <p>Av. Calle Falsa 123, Lomas de Zamora</p>
+                <p>112345-6789</p>
+                <p>juliandiaz.w98@gmail.com</p>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h3>Nuestros Horarios</h3>
+                <hr>
+                <p>Lunes a Viernes 8 a 18hs</p>
+                <p>Sábados 8 a 13hs</p>
+                <p><b>Domingo cerrado</b></p>
+            </div>
+        </section>
+        <section class="siguenos">
+            <div class="imagenes-logos">
+                <h3>Síguenos</h3>
+                <hr>
+                <div>
+                    <!-- LOGOS DE REDES SOCIALES -->
+                    <a href="https://www.instagram.com" target="_blank"><img class="logo-instagram"
+                            src="./img/Logos Redes/instagram.png" alt="LOGO INSTAGRAM"></a>
+                    <a href="https://www.facebook.com" target="_blank"><img class="logo-facebook"
+                            src="./img/Logos Redes/facebook.png" alt="LOGO FACEBOOK"></a>
+                    <a href="https://www.linkedin.com" target="_blank"><img class="logo-linkedin"
+                            src="./img/Logos Redes/linkedin.png" alt="LOGO LINKEDIN"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
